@@ -90,7 +90,9 @@ public class PlayerSelection {
                 System.out.println("Lineup Decision: Starting line up");
             else
                 System.out.println("Lineup Decision: Bench");
-
+        }
+        else{
+            System.out.println("Lineup Decision: Bench");
         }
         //Final Decision
         String isReady = (age >= 18 && age < 35 && weightInKg <= 90)?"Final Decision: Play":"Final Decision: Rest";
