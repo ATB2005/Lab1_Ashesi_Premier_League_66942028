@@ -11,6 +11,7 @@ public class PlayerSelection {
         float heightInMetres = input.nextFloat();
         System.out.print("Enter your weight (pounds): ");
         float weightInPounds = input.nextFloat();
+
         System.out.print("Enter your jersey number: ");
         byte jerseyNumber = input.nextByte();
 
